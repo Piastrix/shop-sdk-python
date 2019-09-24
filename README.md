@@ -56,7 +56,7 @@ print(response)
 {'data': {'lang': 'ru', 'm_curorderid': '102473088', 'm_historyid': '857085113', 'm_historytm': '1568119260', 'referer': 'https://payeer.com/merchant/?m_historyid=857085113&m_historytm=1568119260&m_curorderid=102473088&lang=ru'}, 'id': 94869365, 'method': 'GET', 'url': 'https://payeer.com/api/merchant/process.php'
 ```
 
-В этом примере мы выставили счет, вызвав метод *invoice* из библиотеки **Piastrixlib** и передали необходиммые для этого
-данные. Помните, что для создание реального invoice нужно использовать идентификатор и секретный ключ настоящего магазина.
+В этом примере мы выставили счет, вызвав метод *invoice* из библиотеки **Piastrixlib** и передали необходимые для этого
+данные. Помните, что для создания реального invoice нужно использовать идентификатор и секретный ключ настоящего магазина.
 
 Детальней ознакомиться с другими методами и работой с Piastrix API можно [тут](https://piastrix.docs.apiary.io/#introduction/ptx-api).
